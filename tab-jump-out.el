@@ -33,7 +33,7 @@
   :group 'editing
   :prefix "tab-jump-out-")
 
-(defvar-local tab-jump-out-delimiters '(";" ")" "]" "}" "|" "'" "\"" "`")
+(defvar-local tab-jump-out-delimiters '(";" "(" ")" "[" "]" "{" "}" "|" "'" "\"" "`" "\\" "<" ">")
   "The delimiters indicate `tab-jump-out' should jump out.")
 
 (defun tab-jump-out-fallback ()
